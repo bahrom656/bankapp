@@ -34,3 +34,9 @@ type Payment struct {
 	ID     int
 	Amount Money
 }
+//PaymentSource представляет информацию о источнике оплате 
+type PaymentSource struct{
+	Type 		string
+	Number 		string
+	Balance 	Money
+}
